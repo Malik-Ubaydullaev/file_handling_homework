@@ -6,5 +6,13 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    idx = 0
+    Maximum = 0
+    while idx < len(data):
+        if data[idx].isdigit():
+            if int(data[idx]) > Maximum:
+                Maximum = int(data[idx])
+        idx += 1
+    return Maximum
 
 # Read data from file
