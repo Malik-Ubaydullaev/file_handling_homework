@@ -7,7 +7,6 @@ def main(data:str):
         list: return answer
     """
     list1 = data.split()
-    print(list1)
     list2 = []
     idx = 0
     while idx < len(list1):
