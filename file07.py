@@ -6,5 +6,11 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    
+    idx = 0
+    Summa = 0
+    while idx < len(data):
+        if data[idx].isdigit():
+            Summa += int(data[idx])
+        idx += 1
+    return Summa
 # Read data from file
