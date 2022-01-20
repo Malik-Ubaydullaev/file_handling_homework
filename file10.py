@@ -6,5 +6,15 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    list1 = data.split()
+    idx = 0
+    Maximum = 0
+    while idx < len(list1):
+        if Maximum < len(list1[idx]):
+            Maximum = len(list1[idx])
+        idx += 1
+        
+    return Maximum
+        
 
 # Read data from file
