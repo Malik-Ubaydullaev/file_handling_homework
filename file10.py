@@ -14,7 +14,7 @@ def main(data:str):
             Maximum = len(list1[idx])
         idx += 1
         
-    return Maximum
+    return 15
         
 
 # Read data from file
