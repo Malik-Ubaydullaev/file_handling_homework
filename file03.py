@@ -7,6 +7,6 @@ def main(data:str):
         list: return answer
     """
     list1 = data.split()
-    list1 = list(map(int,list1))
+    list1 = list(map(str,list1))
     return list1
 # Read data from file
