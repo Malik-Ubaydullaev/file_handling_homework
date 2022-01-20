@@ -13,5 +13,6 @@ def main(data:str):
         if list1[idx].isdigit():
             list2 += list1[idx]
         idx += 1
+    list2 = list(map(int,list2))
     return list2
 # Read data from file
