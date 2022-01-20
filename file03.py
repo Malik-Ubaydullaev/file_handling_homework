@@ -12,6 +12,6 @@ def main(data:str):
     while idx < len(data):
         if list1[idx].isdigit():
             list2 += list1[idx]
-            idx += 1
+        idx += 1
     return list2
 # Read data from file
