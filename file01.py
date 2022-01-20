@@ -6,9 +6,10 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    list1 = data.split()
+    stroka = data.read()
+    list1 = stroka.split()
     return list1
 # Read data from file
 f = open('data01.txt')
-txt = f.read()
-print(main(txt))
+#txt = f.read()
+print(main(f))
