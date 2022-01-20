@@ -9,7 +9,7 @@ def main(data:str):
     list1 = data.split(',')
     list2 = []
     idx = 0
-    while idx < len(data):
+    while idx < len(list1):
         if list1[idx].isdigit():
             list2 += list1[idx]
         idx += 1
