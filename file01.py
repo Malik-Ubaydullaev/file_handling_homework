@@ -11,4 +11,4 @@ def main(data:str):
     list1 = stroka.split(',')
     return list1
 # Read data from file
-print(main('data01.txt'))
+print(main("data01.txt"))
