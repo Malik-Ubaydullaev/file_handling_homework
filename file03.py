@@ -7,6 +7,11 @@ def main(data:str):
         list: return answer
     """
     list1 = data.split(',')
-    list1 = list(map(str,list1))
-    return list1
+    list2 = []
+    idx = 0
+    while idx < len(data):
+        if list1[idx].isdigit():
+            list2 += list1[idx]
+            idx += 1
+    return list2
 # Read data from file
