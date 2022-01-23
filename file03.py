@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    list1 = data.split(',')
+    list1 = data.split('\n')
     list2 = []
     idx = 0
     while idx < len(list1):
