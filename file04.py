@@ -11,7 +11,7 @@ def main(data:str):
     idx = 0
     while idx < len(data):
         if not data[idx].isdigit():
-            list2 += data[idx].split()
+            list2.append(data[idx])
         idx += 1
     #list2 = list(map(str,list2))
     return list2
