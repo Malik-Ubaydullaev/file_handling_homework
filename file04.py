@@ -6,12 +6,12 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    list1 = data.split()
+    #list1 = data.split()
     list2 = []
     idx = 0
-    while idx < len(list1):
-        if not list1[idx].isdigit():
-            list2 += list1[idx]
+    while idx < len(data):
+        if not data[idx].isdigit():
+            list2 += data[idx].split()
         idx += 1
     #list2 = list(map(str,list2))
     return list2
