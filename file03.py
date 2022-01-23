@@ -11,8 +11,8 @@ def main(data:str):
     idx = 0
     while idx < len(list1):
         if list1[idx].isdigit():
-            list2 += list1[idx]
+            list2.append(list1[idx])
         idx += 1
-    list2 = list(map(int,list2))
+    #list2 = list(map(int,list2))
     return list2
 # Read data from file
